@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    
+
+    <link rel ="stylesheet" href= "../src/registro.css">
+
+    
+
+    <title>registro</title>
+</head>
+    
+<body>
+    <div class = "container">
+        <div class ="title">Registro</div> 
+         <br> 
+            <form  class="form-inline" action=""  >
+                <div class = "user-details">
+                    
+                        <label for="nombre">Nombre</label>
+                        <input type = "text" name = "nombre" placeholder="Nombre" required>
+                       
+
+                   
+                        <label for="apellido">Apellido</label> 
+                        <input type = "text" name = "apellido" placeholder="Apellido" required>
+                        
+
+                   
+                        <label for="email">Email</label>
+                        <input type ="email" id= email name = "email" placeholder="email" required>
+                 
+
+                    
+                        <label for="nit">Nit</label>
+                        <input type = "text" id= nit name ="nit" placeholder="Nit" required>
+                        
+                    
+                        <label for="Actividad">Actividad</label>
+                        <input type = "text" id= actividad name = "actividad" placeholder="actividad comercial"  required >
+                     
+
+                   
+                        <label for="antiguedad">experiencia(años)</label>
+                        <input type ="number" id = antiguedad name = "antiguedad"  min = "1" max= "50" required >
+                       
+
+                    
+                      
+                        <label for="ciudad">ciudad</label>
+                        <select id= "ciudad" name = "ciudad">
+                            <option>Bogota D.C</option>
+                            <option> Medellin </option>
+                            <option>Cali</option>
+                        </select>
+                       
+                        
+                       
+                  
+                       
+                        <label for="cargo">cargo</label>
+                        <input type ="text" id = cargo name = "cargo" placeholder="Cargo" required>
+                        
+
+                   
+                        <label for="tel">tel</label>
+                        <input type="tel" id= tel name = "tel" placeholder="Telefono" required> 
+    
+                    </div>
+                    <br> </br>
+                    <br> </br>
+
+                    <div class = "button">
+                        <input type = "submit" value = "continuar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    </body>
+</html>

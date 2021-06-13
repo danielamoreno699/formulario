@@ -1,0 +1,68 @@
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+body{
+    
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgb(00, 64,94)
+    
+
+
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 40px;
+    border-radius: 8px;
+
+}
+
+.container .title {
+    font-size:28px;
+    font-weight: 1000;
+    position: relative;
+
+}
+
+ .user-details  {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    
+   
+}
+
+.user-details label{
+    display: inline-block;
+    width: 100px;
+
+}
+
+    
+    
+
+.user-details input{
+    
+    width: 250px;
+    margin-bottom: 2px;
+    display: inline-block;
+
+}
